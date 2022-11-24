@@ -1,0 +1,32 @@
+{
+    "name": "birim/laravel-payone",
+    "description": "PAYONE Payment Gateway for Laravel",
+    "keywords": ["payone", "payment", "gateway", "laravel"],
+    "homepage": "https://github.com/birim/laravel-payone.git",
+    "license": "MIT",
+    "type": "laravel-package",
+    "authors": [
+        {
+            "name": "Birim Karaustaoglu",
+            "email": "birim.karaustaoglu@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Birim\\Laravel\\Payone\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Birim\\Laravel\\PayoneServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
